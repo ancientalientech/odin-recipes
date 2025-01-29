@@ -1,6 +1,7 @@
 h1 {
     color: red;
     font-family: 'Courier New', 'Brush Script MT', monospace;
+    text-align: center;
 }
 
 body {
@@ -15,7 +16,27 @@ ul.ingredients li {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
-    color: orangered
+    color: orangered;
+}
+
+li.recipe-link {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 8px;
+}
+
+li.recipe-link a {
+    background-color: white;
+    opacity: 0.75;
+    display: inline-block;
+    margin-top: 170px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div.recipes {
+    width: 1000px;
 }
 
 ol li {
@@ -27,4 +48,16 @@ a:active {
     color: orange;
     font-size: 22px;
     font-weight: bold;
+}
+
+li#aburi-steak {
+    background-image: url("https://www.allrecipes.com/thmb/hAhSV_4psjQz6ZhIhqcVL9agYM4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8346994-aburi-steak-4x3-7458-067c7d34793341e6b779b5c0744a3af1.jpg");
+}
+
+li#mochi-muffins {
+    background-image: url("https://www.allrecipes.com/thmb/GcVOFhxFXJGmcXVjNihWrTveL1M=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7565482-mochi-muffins-mfs-4x3-dacfcae02ceb4538a14ef9cb9d950b31.jpg");
+}
+
+li#yaki-udon {
+    background-image: url("https://www.allrecipes.com/thmb/BeiPKIvYnmn0GVq14nKDIKC27Lk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/yaki-udon-ddmfs-3x2-55-30ba570fed0a425595f9b1343ebd9c6e.jpg");
 }
