@@ -27,8 +27,7 @@ li.recipe-link {
 }
 
 li.recipe-link a {
-    background-color: white;
-    opacity: 0.75;
+    background-color: rgb(173, 173, 253, 0.5);
     display: inline-block;
     margin-top: 170px;
     font-size: 24px;
